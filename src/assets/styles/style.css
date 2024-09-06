@@ -1,0 +1,42 @@
+.arco-card-size-medium .arco-card-body {
+  padding: 0 !important;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.el-textarea__inner,textarea {
+  resize: none !important;
+}
+
+/* 翻译显示框 */
+/* .custom-textarea .el-textarea__inner {
+  color: black;
+
+  background-color: rgb(235, 237, 246);
+  border: none;
+} */
+
+/** el-input 正常模式下、readonly模式下的文字颜色 */
+/* .el-textarea__inner{
+  color:#00ccff;
+  background-color: #f1dddd;
+  border: none;
+} */
+ /* 滚动条样式设置 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #979797;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6969; /* 鼠标悬停在滑块上时的背景颜色 */
+}
